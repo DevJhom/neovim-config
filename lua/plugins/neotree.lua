@@ -8,6 +8,5 @@ return {
     },
     lazy = false,
     config = function()
-        vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal left<CR>', { desc = "Toggle file explorer" })
     end
 }
